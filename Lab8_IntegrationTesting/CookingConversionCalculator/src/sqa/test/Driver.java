@@ -42,7 +42,7 @@ public class Driver {
         System.out.printf("%.2f %s = %.2f %s\n", originalValue, from, convertedValue, to);
         // ทดสอบกับ LiquidVolumeConverter โดยตรง
         LiquidVolumeConverter liquid = new LiquidVolumeConverter();
-        originalValue = 13.0;
+        originalValue = 10.0;
         from = "pint";
         to = "ml";
         System.out.println("\nLiquidVolumeConverter");
@@ -54,7 +54,7 @@ public class Driver {
 
         // ทดสอบกับ MassConverter โดยตรง
         MassConverter mass = new MassConverter();
-        originalValue = 70.0;
+        originalValue = 50.0;
         from = "kilogram";
         to = "pound";
         System.out.println("\nMassConverter");
@@ -64,10 +64,9 @@ public class Driver {
 
         System.out.println("-----------------------------------------------------------------");
 
-        // ทดสอบกับ TemperatureConverter โดยตรง
      // ทดสอบกับ TemperatureConverter โดยตรง
         TemperatureConverter temp = new TemperatureConverter();
-        originalValue = 60.0;
+        originalValue = 50.0;
         from = "celsius";
         to = "fahrenheit";
         System.out.println("\nTemperatureConverter");
